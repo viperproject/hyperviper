@@ -1,0 +1,15 @@
+[submodule "commutativity-plugin"]
+	path = commutativity-plugin
+	url = https://github.com/marcoeilers/commutativity-plugin.git
+[submodule "silicon"]
+	path = silicon
+	url = https://github.com/viperproject/silicon.git
+[submodule "silver"]
+	path = silver
+	url = https://github.com/marcoeilers/silver-commutativity.git
+[submodule "silver-sif-extension"]
+	path = silver-sif-extension
+	url = https://github.com/viperproject/silver-sif-extension.git
+[submodule "commutativity-plugin-test"]
+	path = commutativity-plugin-test
+	url = https://github.com/viperproject/commutativity-plugin-test.git
