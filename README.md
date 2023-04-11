@@ -22,7 +22,7 @@ cd commutativity-plugin-test
 sbt test
 ```
 
-To verify an individual file, run
+To verify an individual file, compile HyperViper as described above, set the ``Z3_EXE`` environment variable, and run
 ```
 ./hyperviper.sh path/to/file.vpr
 ```
