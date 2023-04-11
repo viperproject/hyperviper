@@ -1,4 +1,6 @@
-HyperViper is an automated prototype verifier for proving information flow security for concurrent programs based on abstract commutativity. It is implemented as a plugin for the open source Viper verifier (https://www.pm.inf.ethz.ch/research/viper.html). That is, it takes Viper’s ordinary language (which is a simple sequential language with support for a mutable heap) and its specification language and extends them with custom language and specification constructs for commutativity-based information flow reasoning.
+HyperViper is an automated prototype verifier for proving information flow security for concurrent programs based on abstract commutativity. It automates CommCSL, a relational concurrent separation logic for information flow reasoning. For more information, check out [the PLDI 2023 paper on CommCSL](https://pm.inf.ethz.ch/publications/EilersDardinierMueller23.pdf).
+
+Hyperviper is implemented as a plugin for the Viper verification infrastructure (https://www.pm.inf.ethz.ch/research/viper.html). That is, it takes Viper’s ordinary language (which is a simple sequential language with support for a mutable heap) and its specification language and extends them with custom language and specification constructs for commutativity-based information flow reasoning.
 
 # Compiling and Running HyperViper
 
