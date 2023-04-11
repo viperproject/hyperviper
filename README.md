@@ -9,6 +9,12 @@ Check out this repoository and all submodules:
 git clone --recursive https://github.com/viperproject/hyperviper
 ```
 
+Run ``setup.sh`` to create symbolic links between the submodules (or create them yourself):
+```
+cd hyperviper
+./setup.sh
+```
+
 Execute
 ```
 cd commutativity-plugin-test
