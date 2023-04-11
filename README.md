@@ -1,8 +1,14 @@
 HyperViper is an automated prototype verifier for proving information flow security for concurrent programs based on abstract commutativity. It is implemented as a plugin for the open source Viper verifier (https://www.pm.inf.ethz.ch/research/viper.html). That is, it takes Viper’s ordinary language (which is a simple sequential language with support for a mutable heap) and its specification language and extends them with custom language and specification constructs for commutativity-based information flow reasoning.
 
-# Running HyperViper
+# Compiling and Running HyperViper
 
-Check out this repoository and all submodules.
+HyperViper requires Java (version 11 or newer) and SBT as well as a working installation of Z3 4.8.7.
+
+Check out this repoository and all submodules:
+```
+git clone --recursive https://github.com/viperproject/hyperviper
+```
+
 Execute
 ```
 cd commutativity-plugin-test
@@ -10,7 +16,13 @@ sbt assembly
 ```
 to compile HyperViper.
 
-Then, from the main directory, run
+To run tests, set the environment variable ``Z3_EXE`` to point to the Z3 executable. Then run
+```
+cd commutativity-plugin-test
+sbt test
+```
+
+To verify an individual file, run
 ```
 ./hyperviper.sh path/to/file.vpr
 ```
