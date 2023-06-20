@@ -35,6 +35,10 @@ To verify an individual file, compile HyperViper as described above, set the ``Z
 ./hyperviper.sh path/to/file.vpr
 ```
 
+# Examples
+
+Examples can be found in ``commutativity-plugin/src/test/resources/commutativity-tests/evaluation``.
+
 # Syntax and specifications
 
 ## Resource specifications
